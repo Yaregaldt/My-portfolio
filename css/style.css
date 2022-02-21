@@ -1,0 +1,160 @@
+body {
+  color: #40514E;
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  color: #e7eff0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #7a0e32;
+}
+/*
+a:active {
+  text-decoration: underline;
+} */
+
+p {
+  line-height: 2;
+}
+
+hr {
+  margin: 100px auto;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-right-width: 0;
+  border-top: 5px dotted #becaca;
+  width: 5%;
+}
+
+/* /////////////////////////////top div style/////////////////////////// */
+.top-container {
+  background-color: #EAF6F6;
+  padding-top: 300px;
+  position: relative;
+  
+}
+
+.logo {
+  position: absolute;
+  right: 200px;
+  top: 50px;
+}
+
+
+
+/* /////////////////////////////middle div style/////////////////////////// */
+#hey {
+  clear: left;
+}
+
+.avator-img {
+  margin-top: 30px;
+
+  height: 200px;
+  width: 200px;
+}
+
+
+
+.skill-row {
+  margin: 100px auto;
+  text-align: left;
+  width: 50%;
+}
+
+.frontend-img {
+  float: left;
+  margin-right: 30px;
+  width: 20%;
+}
+
+.backendtechnology {
+  float: right;
+  margin-left: 30px;
+  width: 20%;
+}
+
+.contact-me {
+  line-height: 2;
+}
+
+.myButton {
+  box-shadow: inset 0 1px 0 0 #66BFBF;
+  background: linear-gradient(to bottom, #66BFBF 5%, #66BFBF 100%);
+  background-color: #66BFBF;
+  border-radius: 6px;
+  border: 1px solid #66BFBF;
+  cursor: pointer;
+  color: #ffffff;
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 50px;
+  padding: 8px 49px;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #66BFBF;
+}
+
+.myButton:hover {
+  background: linear-gradient(to bottom, #11999E 5%, #11999E 100%);
+  background-color: #11999E;
+}
+
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+/* .web-developer-header{
+  margin-top: 0;
+} */
+/* /////////////////////////////bottom div style/////////////////////////// */
+.bottom-container {
+  background-color: #abbb9c;
+  height: 75px;
+  margin-top: 100px;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+
+.footer-link {
+  padding: 25px;
+}
+
+.copy-right {
+  color: #EAF6F6;
+  margin: 25px auto 0;
+}
