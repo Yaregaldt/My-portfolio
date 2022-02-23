@@ -25,16 +25,17 @@ h3 {
 }
 
 a {
-  color: #e7eff0;
+  color: blue;
+  text-decoration: underline;
   font-family: 'Montserrat', sans-serif;
 }
 
 a:link {
-  text-decoration: none;
+  text-decoration: blue;
 }
 
 a:visited {
-  text-decoration: none;
+  text-decoration: blue;
 }
 
 a:hover {
@@ -61,7 +62,7 @@ hr {
 /* /////////////////////////////top div style/////////////////////////// */
 .top-container {
   background-color: #EAF6F6;
-  padding-top: 50px;
+  padding-top: 300px;
   position: relative;
   
 }
