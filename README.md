@@ -4,7 +4,7 @@
 
 ## Description
 
-It is a personal portfolio that demonstrate my work experience, and skills in web development providing my contact details and specific professional platform links.
+It is a personal portfolio that demonstrate my work experience, and skills in web development technologies and related streams providing my contact details and specific professional platform links.
 
 ## Table of Contents
 
