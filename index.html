@@ -1,53 +1,207 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Yaregal T.</title>
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <link href="https://bit.ly/2TZJP9y" rel="stylesheet">
-</head>
-<body>  
-  <div class="top-container">
-    <img src="images/HTML_CS_JS.png" class="logo" alt="HTML-CSS-JS-img">
-    <h1 class="myName">I'm Yaregal T.</h1>
-    <h2 class="mySkill">I am a full-stack web development student. This website, which is under construction is aimed at demonstrating my skills in front-end web development technologies; this page will be enriched with wonderful content and flavours very soon!
-    </h2>
-  </div>  
-  <div class="middle-container">
-    <div class="profile">
-      <img class="avator-img" src="images/avator.png" alt="avator-image">      
-    </div>
-    <hr>
-  <div class="skills">
-      <h2>I am in the course of developing my skills in the mentioned fields:</h2>
-  <div class="skill-row">
-    <img class="frontend-img" src="images/frontendlogo.png" alt="Front-end images">
-        <h3 class="web-developer-header">Front-end web development</h3>
-        <p>Click <a href="https://yaregaldt.github.io/Daily_Planner/" target="_blank"><strong>HERE</strong></a> to look at a simple calendar application that allows a user to save events for each hour of the day that I deployed by modifying starter code that I was given. This app runs in the browser and feature dynamically updated HTML and CSS powered by jQuery.S</p></p>
-      </div>
-  <div class="skill-row">
-        <img class="backendtechnology" src="images/backend.png" alt="back-end technology image">
-        <h3 id="hey">Back-end web development</h3>
-      <p>Click <a href="https://yaregaldt.github.io/random_password_generator/" target="_blank"><strong>HERE</strong></a> to look at an application which is built to generate a strong random password. The user would be aked which character criteria they wanted in their strong password; in due course this app will generate a random output to the user.</p>
-  </div>
-      <hr>
-  <div class="contact-me">
-      <h2>Get In Touch</h2>
-      <h3>I’m currently available for full time and freelance work.</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus quaeet,fugiat alias voluptas
-        <br> quo at tempora Vel deserunt corrupti autem delectus </p>
-      <a class="myButton" href="mailto:yaregalmail@gmail.com">CONTACT ME</a>
-    </div>
-  </div>
-  <div class="bottom-container">   
-    <a href="https://github.com/Yaregaldt/">GitHub ||</a>
-    <a href="https://www.linkedin.com/in/yaregal-d-tilahun-903a58215/">LinkedIn</a>
-    <p class="copy-right">© 2022 Yaregal T.</p>
-  </div>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-</body>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF"
+      crossorigin="anonymous"
+    />
+    <link href="css/style.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>yaregal's porfolio</title>
+  </head>
 
+  <body data-spy="scroll" data-target="myScrollspy" data-offset="50">
+    <div class="main container-fluid">
+      <nav class="navbar navbar-light" id="myScrollspy">
+        <a class="navbar-brand" href="#porfolio">Portfolio</a>
+        <a class="navbar-brand" href="#resume">Resume</a>
+        <a class="navbar-brand" href="#contact">Contact</a>
+        <a class="navbar-brand" href="">About</a>
+      </nav>
+      <section class="section1" id="home">
+        <div class="row">
+          <div class="col col-md col-lg-4">
+            <img
+              src="images/placeholder.png"
+              class="profile-img rounded-circle"
+            />
+          </div>
+          <div
+            class="col col-md col-lg-4 d-flex flex-column justify-content-center"
+          >
+            <h1 style="color: rgb(95, 228, 18)">Yaregal Tilahun</h1>
+            <h3>
+              I'm a
+              <span style="background: #b98f57; padding: 4px"
+                >Full Stack Web Developer</span
+              >
+            </h3>
+            <p>LinkedIn | Github</p>
+            <a
+              class="btn btn-primary"
+              href="#about"
+              style="align-self: baseline"
+              >About Me</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section class="content" id="about">
+        <h1 class="section-header">About Me</h1>
+        <div>
+          <h3>
+            I'm studying Full-Stack Web Development and have extensive
+            information management experience as a professional and marketer. I
+            have a passion for web development.
+          </h3>
+          <div style="text-align: center">
+            <button style="font-size: 24px">
+              <a href="https://www.linkedin.com/in/yaregal-d-tilahun-903a58215/"
+                ><i class="fa fa-linkedin"></i
+              ></a>
+            </button>
+            <button style="font-size: 24px">
+              <a href="https://github.com/Yaregaldt"
+                ><i class="fa fa-github"></i
+              ></a>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="content" id="porfolio">
+        <h1 class="section-header">Deployed projects</h1>
+        <div class="row mt-5">
+          <div class="col">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="./images/GitHub-Mark (1).png"
+                alt="Card image cap"
+              />
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="./images/note-taker.png"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Note-Taker</h5>
+                <p class="card-text">
+                  This app can be used to write and save notes. This app uses
+                  Express.js back-end and will save and retrieve note data from
+                  a JSON file.
+                </p>
+                <p class="card-text">
+                  <small class="text-muted">Last updated 14 mins ago</small>
+                </p>
+                <a href="https://github.com/Yaregaldt/Note-Taker" class="btn btn-primary" >GitHub link</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="row mt-3">
+            <div class="col">
+              <div class="card">
+                <img
+                  class="card-img-top"
+                  src="./images/team-profile-generator.png"
+                  alt="Card image cap"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Team Profile Generator</h5>
+                  <p class="card-text">
+                    This app is a Node.js command-line application that takes in
+                    information about employees on a software engineering team,
+                    then generates an HTML webpage that displays summaries for
+                    each person.
+                  </p>
+                  <p class="card-text">
+                    <small class="text-muted">Last updated 5 mins ago</small>
+                  </p>
+                  <a
+                    href="https://github.com/Yaregaldt/team-Profile-generator"
+                    class="btn btn-primary"
+                    >Github link</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="content" id="contact">
+        <h1 class="section-header">Contact</h1>
+        <div class="form4 top">
+          <div class="container">
+            <div class="row">
+              <div
+                class="col-md-7 col-md-offset-2 d-flex w-100 justify-content-center" >
+                <div class="form-bg w-100">
+                  <form class="form">
+                    <div class="form-group">
+                      <label class="sr-only">Name</label>
+                      <input
+                        type="text"
+                        id="subject"
+                        class="form-control"
+                        required=""
+                        id="nameNine"
+                        placeholder="Your Name"/>
+                    </div>
+                    <div class="form-group">
+                      <label class="sr-only">Email</label>
+                      <input
+                        type="email"
+                        id="email"
+                        class="form-control"
+                        required=""
+                        id="emailNine"
+                        placeholder="Email Address"/>
+                    </div>
+                    <div class="form-group">
+                      <label class="sr-only">Name</label>
+                      <textarea
+                        id="body"
+                        class="form-control"
+                        required=""
+                        rows="7"
+                        id="messageNine"
+                        placeholder="Write message"
+                      ></textarea>
+                    </div>
+                    <button
+                      type="submit"
+                      id="submit"
+                      class="btn text-center btn-primary mt-2">
+                      Send Message
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/script.js"></script>
+  </body>
 </html>
