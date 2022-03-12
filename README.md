@@ -37,4 +37,4 @@ n/a
 
 ## Questions
 
-If you have any questions about this projects, please contact me directly at dyaregal@gmail.com. You can view more of my projects at https://github.com/yaregaldt.
+If you have any questions about this projects, please contact me directly at yaregald3@gmail.comyaregalt5@gmail.com. You can view more of my projects at https://github.com/yaregaldt.
