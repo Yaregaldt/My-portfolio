@@ -160,9 +160,9 @@
     <!-- Portfolio Section -->
    
     
-                 <section class="content" id="portfolio" style="padding: 20px 0; background-color: #f9f9f9;">
+                <section class="content" id="portfolio" style="padding: 20px 0; background-color: #f9f9f9;">
   <h1 class="section-header text-center mb-4">Deployed Projects</h1>
-  <div class="container">
+  <div class="container d-flex flex-column align-items-center" style="max-width: 33%;">
 
     <!-- Project 1 -->
     <div class="row mb-5">
@@ -185,7 +185,7 @@
           class="img-fluid rounded"
           src="./images/note-taker.png"
           alt="Note-Taker App"
-          style="height: 300px; object-fit: cover;"
+          style="height: 200px; object-fit: cover; width: 100%;"
         />
       </div>
     </div>
@@ -211,7 +211,7 @@
           class="img-fluid rounded"
           src="./images/team-profile-generator.png"
           alt="Team Profile Generator"
-          style="height: 300px; object-fit: cover;"
+          style="height: 200px; object-fit: cover; width: 100%;"
         />
       </div>
     </div>
@@ -219,64 +219,51 @@
   </div>
 </section>
 
-      <section class="content" id="contact">
-        <h1 class="section-header">Contact</h1>
-        <div class="form4 top">
-          <div class="container">
-            <div class="row">
-              <div
-                class="col-md-7 col-md-offset-2 d-flex w-100 justify-content-center"
-              >
-                <div class="form-bg w-100">
-                  <form class="form">
-                    <div class="form-group">
-                      <label class="sr-only">Name</label>
-                      <input
-                        type="text"
-                        id="subject"
-                        class="form-control"
-                        required=""
-                        id="nameNine"
-                        placeholder="Your Name"
-                      />
-                    </div>
-                    <div class="form-group">
-                      <label class="sr-only">Email</label>
-                      <input
-                        type="email"
-                        id="email"
-                        class="form-control"
-                        required=""
-                        id="emailNine"
-                        placeholder="Email Address"
-                      />
-                    </div>
-                    <div class="form-group">
-                      <label class="sr-only">Name</label>
-                      <textarea
-                        id="body"
-                        class="form-control"
-                        required=""
-                        rows="7"
-                        id="messageNine"
-                        placeholder="Write message"
-                      ></textarea>
-                    </div>
-                    <button
-                      type="submit"
-                      id="submit"
-                      class="btn text-center btn-primary mt-2"
-                    >
-                      Send Message
-                    </button>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
+<section class="content" id="contact" style="background-color: #f9f9f9; padding: 20px;">
+  <h1 class="section-header text-center mb-4">Contact</h1>
+  <div class="container d-flex flex-column align-items-center" style="max-width: 33%;">
+    <form class="form">
+      <div class="form-group mb-3">
+        <label class="form-label" for="nameNine">Your Name</label>
+        <input
+          type="text"
+          id="nameNine"
+          class="form-control"
+          required=""
+          placeholder="Enter your name"
+        />
+      </div>
+      <div class="form-group mb-3">
+        <label class="form-label" for="emailNine">Email Address</label>
+        <input
+          type="email"
+          id="emailNine"
+          class="form-control"
+          required=""
+          placeholder="Enter your email"
+        />
+      </div>
+      <div class="form-group mb-3">
+        <label class="form-label" for="messageNine">Message</label>
+        <textarea
+          id="messageNine"
+          class="form-control"
+          required=""
+          rows="5"
+          placeholder="Write your message"
+        ></textarea>
+      </div>
+      <button
+        type="submit"
+        id="submit"
+        class="btn btn-primary w-100"
+      >
+        Send Message
+      </button>
+    </form>
+  </div>
+</section>
+
 
     <!-- Scripts -->
      <script
