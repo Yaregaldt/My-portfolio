@@ -39,6 +39,15 @@
         background-color: #0056b3; /* Darker blue for the active state */
         border-radius: 5px;
       }
+
+      /* Deployed Project Images Hover Effect */
+      .card-img-top {
+        transition: transform 0.3s ease-in-out;
+      }
+
+      .card-img-top:hover {
+        transform: scale(1.1); /* Enlarge image on hover */
+      }
     </style>
 
     <title>Yaregal's Portfolio</title>
@@ -130,12 +139,13 @@
         <h1 class="section-header text-center mb-4">Deployed Projects</h1>
         <div class="row">
           <!-- Project 1 -->
-          <div class="col-lg-6">
-            <div class="card mb-4">
+          <div class="col-lg-6 d-flex justify-content-center">
+            <div class="card mb-4" style="max-width: 700px;">
               <img
-                class="card-img-top"
+                class="card-img-top img-fluid"
                 src="./images/note-taker.png"
                 alt="Note-Taker App"
+                style="height: 350px; object-fit: cover;"
               />
               <div class="card-body">
                 <h5 class="card-title">Note-Taker</h5>
@@ -202,12 +212,13 @@
           </div>
 
           <!-- Project 2 -->
-          <div class="col-lg-6">
-            <div class="card mb-4">
+          <div class="col-lg-6 d-flex justify-content-center">
+            <div class="card mb-4" style="max-width: 700px;">
               <img
-                class="card-img-top"
+                class="card-img-top img-fluid"
                 src="./images/team-profile-generator.png"
                 alt="Team Profile Generator"
+                style="height: 350px; object-fit: cover;"
               />
               <div class="card-body">
                 <h5 class="card-title">Team Profile Generator</h5>
