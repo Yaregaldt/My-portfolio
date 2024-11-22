@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+
+ <!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Meta Tags -->
@@ -16,6 +17,30 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+
+    <style>
+      /* Navigation Links Styling */
+      .navbar a.navbar-brand {
+        color: #007bff; /* Primary blue color */
+        font-weight: bold;
+        text-transform: uppercase;
+        padding: 10px 15px;
+        transition: color 0.3s, background-color 0.3s;
+      }
+
+      .navbar a.navbar-brand:hover {
+        color: white;
+        background-color: #007bff;
+        border-radius: 5px;
+      }
+
+      .navbar a.navbar-brand.active {
+        color: white;
+        background-color: #0056b3; /* Darker blue for the active state */
+        border-radius: 5px;
+      }
+    </style>
+
     <title>Yaregal's Portfolio</title>
   </head>
 
@@ -24,7 +49,7 @@
     <div class="container-fluid">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
-          <a class="navbar-brand" href="#home">Home</a>
+          <a class="navbar-brand active" href="#home">Home</a>
           <a class="navbar-brand" href="#portfolio">Portfolio</a>
           <a class="navbar-brand" href="#contact">Contact</a>
         </div>
@@ -48,10 +73,9 @@
               Yaregal Tilahun
             </h1>
             <h3 style="font-size: 1.5rem;">
-              Technology Sales & Customer Success Professional
+              Technical Sales Professional | SaaS, Cloud, and Digital Solutions
               <br />
-              Driving Revenue Growth, Client Retention, and Digital
-              Transformation
+              Driving Revenue Growth and Client Success
             </h3>
             <p style="margin-top: 15px;">
               <a
@@ -80,19 +104,25 @@
         <h1 class="section-header text-center mb-4">About Me</h1>
         <div class="text-center">
           <p>
-            Hi! My name is Yaregal! I’m a seasoned professional with expertise in
-            <strong>technology sales</strong>, <strong>customer success</strong>, and
-            <strong>web development</strong>. With over a decade of experience, I have
-            driven revenue growth, enhanced customer satisfaction, and delivered
-            impactful digital transformation solutions.
+            Hi! My name is Yaregal! I am an experienced technical sales professional with a
+            passion for helping businesses succeed through **SaaS**, **cloud solutions**, and
+            **digital transformation strategies**. With over a decade of experience, I bring a
+            unique blend of technical expertise and sales acumen to every opportunity.
           </p>
           <p>
-            Armed with an MBA in Business Analytics and a BSc in Information and
-            Communication Technology, I bring a unique blend of strategic thinking
-            and technical proficiency to every project. I thrive at the intersection
-            of business and technology, delivering solutions that drive measurable
-            success.
+            As an <strong>AWS Certified Solutions Architect – Associate</strong>, I have a solid foundation
+            in cloud solutions, combined with extensive experience in SaaS and B2B technology sales.
+            My technical background in web development and digital tools further enhances my ability
+            to connect customer needs with the right solutions.
           </p>
+          <p>
+            Achievements include:
+          </p>
+          <ul>
+            <li>Driving a <strong>30%</strong> increase in monthly sales through consultative selling and tailored solutions.</li>
+            <li>Improving client retention by <strong>95%</strong> by delivering value-driven SaaS and cloud solutions.</li>
+            <li>Enhancing repeat business by <strong>40%</strong> through a customer-first approach to technology adoption.</li>
+          </ul>
         </div>
       </div>
     </section>
@@ -103,14 +133,12 @@
         <h1 class="section-header text-center mb-4">Why This Website?</h1>
         <div class="text-center">
           <p>
-            This website is a reflection of my passion for blending technology and
-            strategy to solve business challenges. It showcases my professional
-            journey, highlights key achievements in technology sales and customer
-            success, and features examples of my work in web development.
+            This website showcases my journey as a <strong>technical sales professional</strong>, highlighting
+            my expertise in <strong>SaaS sales</strong>, <strong>cloud adoption</strong>, and <strong>customer success</strong>.
           </p>
           <p>
-            Explore and connect with me to discuss how I can contribute to your
-            organization or collaborate on exciting projects!
+            By exploring my projects and achievements, you’ll see how I deliver measurable results
+            for organizations seeking to leverage modern technologies to drive growth and operational efficiency.
           </p>
         </div>
       </div>
@@ -132,8 +160,8 @@
               <div class="card-body">
                 <h5 class="card-title">Note-Taker</h5>
                 <p class="card-text">
-                  This app allows users to write and save notes using Express.js
-                  back-end and JSON data storage.
+                  A practical app that uses Express.js and JSON for dynamic note management. 
+                  Demonstrates my ability to leverage back-end technologies for client needs.
                 </p>
                 <a
                   href="https://github.com/Yaregaldt/Note-Taker"
@@ -155,8 +183,8 @@
               <div class="card-body">
                 <h5 class="card-title">Team Profile Generator</h5>
                 <p class="card-text">
-                  A Node.js command-line app that generates an HTML webpage to
-                  display team member profiles.
+                  A Node.js command-line app that creates dynamic team profile pages, 
+                  demonstrating how technical solutions address business challenges.
                 </p>
                 <a
                   href="https://github.com/Yaregaldt/team-Profile-generator"
@@ -210,3 +238,4 @@
     ></script>
   </body>
 </html>
+    
