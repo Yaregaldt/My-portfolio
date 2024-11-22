@@ -1,5 +1,5 @@
 
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Meta Tags -->
@@ -99,44 +99,27 @@
     </section>
 
     <!-- About Me Section -->
-    
-   <section class="content" id="about" style="padding: 20px 0; background-color: #f9f9f9;">
-  <div class="container">
-    <h1 class="section-header text-center mb-4">About Me</h1>
-    <div class="text-center">
-      <p>
-        Hi! My name is Yaregal! I am an experienced technical sales professional with a
-        passion for helping businesses succeed through <strong>SaaS</strong>, <strong>cloud solutions</strong>, and
-        <strong>digital transformation strategies</strong>. With over a decade of experience, I bring a
-        unique blend of technical expertise and sales acumen to every opportunity.
-      </p>
-      <p>
-        My background includes a solid foundation in <strong>cloud technologies</strong>, demonstrated by earning the
-        <strong>AWS Certified Solutions Architect – Associate</strong> certification, combined with extensive experience in SaaS and B2B technology sales. 
-        I also have hands-on technical skills in web development and digital tools, enabling me to align customer needs with tailored solutions.
-      </p>
-      <p><strong>Key achievements include:</strong></p>
-      <ul style="list-style-type: disc; text-align: left; margin: 0 auto; max-width: 600px;">
-        <li style="margin-bottom: 10px;">Driving a <strong>30%</strong> increase in monthly sales through consultative selling and tailored solutions.</li>
-        <li style="margin-bottom: 10px;">Improving client retention by <strong>95%</strong> by delivering value-driven SaaS and cloud solutions.</li>
-        <li style="margin-bottom: 10px;">Enhancing repeat business by <strong>40%</strong> through a customer-first approach to technology adoption.</li>
-      </ul>
-    </div>
-  </div>
-</section>
-    <!-- Why This Website Section -->
-    <section class="content" id="why-website" style="padding: 20px 0;">
+    <section class="content" id="about" style="padding: 20px 0; background-color: #f9f9f9;">
       <div class="container">
-        <h1 class="section-header text-center mb-4">Why This Website?</h1>
+        <h1 class="section-header text-center mb-4">About Me</h1>
         <div class="text-center">
           <p>
-            This website showcases my journey as a <strong>technical sales professional</strong>, highlighting
-            my expertise in <strong>SaaS sales</strong>, <strong>cloud adoption</strong>, and <strong>customer success</strong>.
+            Hi! My name is Yaregal! I am an experienced technical sales professional with a
+            passion for helping businesses succeed through <strong>SaaS</strong>, <strong>cloud solutions</strong>, and
+            <strong>digital transformation strategies</strong>. With over a decade of experience, I bring a
+            unique blend of technical expertise and sales acumen to every opportunity.
           </p>
           <p>
-            By exploring my projects and achievements, you’ll see how I deliver measurable results
-            for organizations seeking to leverage modern technologies to drive growth and operational efficiency.
+            My background includes a solid foundation in <strong>cloud technologies</strong>, demonstrated by earning the
+            <strong>AWS Certified Solutions Architect – Associate</strong> certification, combined with extensive experience in SaaS and B2B technology sales. 
+            I also have hands-on technical skills in web development and digital tools, enabling me to align customer needs with tailored solutions.
           </p>
+          <p><strong>Key achievements include:</strong></p>
+          <ul style="list-style-type: disc; text-align: left; margin: 0 auto; max-width: 600px;">
+            <li style="margin-bottom: 10px;">Driving a <strong>30%</strong> increase in monthly sales through consultative selling and tailored solutions.</li>
+            <li style="margin-bottom: 10px;">Improving client retention by <strong>95%</strong> by delivering value-driven SaaS and cloud solutions.</li>
+            <li style="margin-bottom: 10px;">Enhancing repeat business by <strong>40%</strong> through a customer-first approach to technology adoption.</li>
+          </ul>
         </div>
       </div>
     </section>
@@ -160,15 +143,64 @@
                   A practical app that uses Express.js and JSON for dynamic note management. 
                   Demonstrates my ability to leverage back-end technologies for client needs.
                 </p>
-                <a
-                  href="https://github.com/Yaregaldt/Note-Taker"
-                  target="_blank"
+                <button
                   class="btn btn-primary"
-                  >GitHub Link</a
+                  data-bs-toggle="modal"
+                  data-bs-target="#noteTakerModal"
                 >
+                  View Details
+                </button>
               </div>
             </div>
           </div>
+
+          <!-- Modal for Project 1 -->
+          <div
+            class="modal fade"
+            id="noteTakerModal"
+            tabindex="-1"
+            aria-labelledby="noteTakerModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="noteTakerModalLabel">Note-Taker App</h5>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <img
+                    src="./images/note-taker.png"
+                    class="img-fluid mb-3"
+                    alt="Note-Taker App"
+                  />
+                  <p>
+                    This app allows users to write and save notes dynamically. Built using Express.js for the back end and JSON for data storage, this project highlights my proficiency in creating practical, user-focused applications.
+                  </p>
+                  <p>
+                    <strong>Features:</strong>
+                    <ul>
+                      <li>Dynamic note creation and deletion</li>
+                      <li>Data persistence using JSON</li>
+                      <li>Clean and responsive UI</li>
+                    </ul>
+                  </p>
+                  <a
+                    href="https://github.com/Yaregaldt/Note-Taker"
+                    target="_blank"
+                    class="btn btn-outline-primary"
+                    >View on GitHub</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
           <!-- Project 2 -->
           <div class="col-lg-6">
             <div class="card mb-4">
@@ -183,12 +215,62 @@
                   A Node.js command-line app that creates dynamic team profile pages, 
                   demonstrating how technical solutions address business challenges.
                 </p>
-                <a
-                  href="https://github.com/Yaregaldt/team-Profile-generator"
-                  target="_blank"
+                <button
                   class="btn btn-primary"
-                  >GitHub Link</a
+                  data-bs-toggle="modal"
+                  data-bs-target="#teamProfileModal"
                 >
+                  View Details
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Modal for Project 2 -->
+          <div
+            class="modal fade"
+            id="teamProfileModal"
+            tabindex="-1"
+            aria-labelledby="teamProfileModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="teamProfileModalLabel">
+                    Team Profile Generator
+                  </h5>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <img
+                    src="./images/team-profile-generator.png"
+                    class="img-fluid mb-3"
+                    alt="Team Profile Generator"
+                  />
+                  <p>
+                    This Node.js app generates dynamic HTML pages based on input about team members. It showcases my ability to create functional applications that solve real-world problems.
+                  </p>
+                  <p>
+                    <strong>Features:</strong>
+                    <ul>
+                      <li>CLI-based user input handling</li>
+                      <li>Dynamic HTML generation</li>
+                      <li>Integration of Jest for unit testing</li>
+                    </ul>
+                  </p>
+                  <a
+                    href="https://github.com/Yaregaldt/team-Profile-generator"
+                    target="_blank"
+                    class="btn btn-outline-primary"
+                    >View on GitHub</a
+                  >
+                </div>
               </div>
             </div>
           </div>
@@ -235,4 +317,3 @@
     ></script>
   </body>
 </html>
-    
