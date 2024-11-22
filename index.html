@@ -134,191 +134,132 @@
     </section>
 
     <!-- Portfolio Section -->
-    <section class="content" id="portfolio" style="padding: 20px 0; background-color: #f9f9f9;">
-      <div class="container">
-        <h1 class="section-header text-center mb-4">Deployed Projects</h1>
-        <div class="row">
-          <!-- Project 1 -->
-          <div class="col-lg-6 d-flex justify-content-center">
-            <div class="card mb-4" style="max-width: 700px;">
+   <section class="content" id="porfolio">
+        <h1 class="section-header">Deployed projects</h1>
+        <!-- <div class="row mt-5">
+          <div class="col">
+            <div class="card">
               <img
-                class="card-img-top img-fluid"
+                class="card-img-top"
+                src="./images/GitHub-Mark (1).png"
+                alt="Card image cap"
+              />
+            </div>
+          </div> -->
+          <div class="col">
+            <div class="card">
+              <img
+                class="card-img-top"
                 src="./images/note-taker.png"
-                alt="Note-Taker App"
-                style="height: 350px; object-fit: cover;"
+                alt="Card image cap"
               />
               <div class="card-body">
                 <h5 class="card-title">Note-Taker</h5>
                 <p class="card-text">
-                  A practical app that uses Express.js and JSON for dynamic note management. 
-                  Demonstrates my ability to leverage back-end technologies for client needs.
+                  This app can be used to write and save notes. This app uses
+                  Express.js back-end and will save and retrieve note data from
+                  a JSON file.
                 </p>
-                <button
-                  class="btn btn-primary"
-                  data-bs-toggle="modal"
-                  data-bs-target="#noteTakerModal"
-                >
-                  View Details
-                </button>
-              </div>
-            </div>
-          </div>
-
-          <!-- Modal for Project 1 -->
-          <div
-            class="modal fade"
-            id="noteTakerModal"
-            tabindex="-1"
-            aria-labelledby="noteTakerModalLabel"
-            aria-hidden="true"
-          >
-            <div class="modal-dialog modal-lg">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="noteTakerModalLabel">Note-Taker App</h5>
-                  <button
-                    type="button"
-                    class="btn-close"
-                    data-bs-dismiss="modal"
-                    aria-label="Close"
-                  ></button>
-                </div>
-                <div class="modal-body">
-                  <img
-                    src="./images/note-taker.png"
-                    class="img-fluid mb-3"
-                    alt="Note-Taker App"
-                  />
-                  <p>
-                    This app allows users to write and save notes dynamically. Built using Express.js for the back end and JSON for data storage, this project highlights my proficiency in creating practical, user-focused applications.
-                  </p>
-                  <p>
-                    <strong>Features:</strong>
-                    <ul>
-                      <li>Dynamic note creation and deletion</li>
-                      <li>Data persistence using JSON</li>
-                      <li>Clean and responsive UI</li>
-                    </ul>
-                  </p>
-                  <a
-                    href="https://github.com/Yaregaldt/Note-Taker"
-                    target="_blank"
-                    class="btn btn-outline-primary"
-                    >View on GitHub</a
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Project 2 -->
-          <div class="col-lg-6 d-flex justify-content-center">
-            <div class="card mb-4" style="max-width: 700px;">
-              <img
-                class="card-img-top img-fluid"
-                src="./images/team-profile-generator.png"
-                alt="Team Profile Generator"
-                style="height: 350px; object-fit: cover;"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Team Profile Generator</h5>
                 <p class="card-text">
-                  A Node.js command-line app that creates dynamic team profile pages, 
-                  demonstrating how technical solutions address business challenges.
+                  <small class="text-muted">Last updated 14 mins ago</small>
                 </p>
-                <button
+                <a
+                  href="https://github.com/Yaregaldt/Note-Taker"
                   class="btn btn-primary"
-                  data-bs-toggle="modal"
-                  data-bs-target="#teamProfileModal"
+                  >GitHub link</a
                 >
-                  View Details
-                </button>
               </div>
             </div>
           </div>
 
-          <!-- Modal for Project 2 -->
-          <div
-            class="modal fade"
-            id="teamProfileModal"
-            tabindex="-1"
-            aria-labelledby="teamProfileModalLabel"
-            aria-hidden="true"
-          >
-            <div class="modal-dialog modal-lg">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="teamProfileModalLabel">
-                    Team Profile Generator
-                  </h5>
-                  <button
-                    type="button"
-                    class="btn-close"
-                    data-bs-dismiss="modal"
-                    aria-label="Close"
-                  ></button>
-                </div>
-                <div class="modal-body">
-                  <img
-                    src="./images/team-profile-generator.png"
-                    class="img-fluid mb-3"
-                    alt="Team Profile Generator"
-                  />
-                  <p>
-                    This Node.js app generates dynamic HTML pages based on input about team members. It showcases my ability to create functional applications that solve real-world problems.
+          <div class="row mt-3">
+            <div class="col">
+              <div class="card">
+                <img
+                  class="card-img-top"
+                  src="./images/team-profile-generator.png"
+                  alt="Card image cap"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Team Profile Generator</h5>
+                  <p class="card-text">
+                    This app is a Node.js command-line application that takes in
+                    information about employees on a software engineering team,
+                    then generates an HTML webpage that displays summaries for
+                    each person.
                   </p>
-                  <p>
-                    <strong>Features:</strong>
-                    <ul>
-                      <li>CLI-based user input handling</li>
-                      <li>Dynamic HTML generation</li>
-                      <li>Integration of Jest for unit testing</li>
-                    </ul>
+                  <p class="card-text">
+                    <small class="text-muted">Last updated 5 mins ago</small>
                   </p>
                   <a
                     href="https://github.com/Yaregaldt/team-Profile-generator"
-                    target="_blank"
-                    class="btn btn-outline-primary"
-                    >View on GitHub</a
+                    class="btn btn-primary"
+                    >Github link</a
                   >
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section class="content" id="contact" style="padding: 50px 0;">
-      <div class="container">
-        <h1 class="section-header text-center mb-4">Contact</h1>
-        <div class="row justify-content-center">
-          <div class="col-lg-6">
-            <form>
-              <div class="mb-3">
-                <label for="name" class="form-label">Your Name</label>
-                <input type="text" class="form-control" id="name" placeholder="Enter your name" />
+      </section>
+      <section class="content" id="contact">
+        <h1 class="section-header">Contact</h1>
+        <div class="form4 top">
+          <div class="container">
+            <div class="row">
+              <div
+                class="col-md-7 col-md-offset-2 d-flex w-100 justify-content-center"
+              >
+                <div class="form-bg w-100">
+                  <form class="form">
+                    <div class="form-group">
+                      <label class="sr-only">Name</label>
+                      <input
+                        type="text"
+                        id="subject"
+                        class="form-control"
+                        required=""
+                        id="nameNine"
+                        placeholder="Your Name"
+                      />
+                    </div>
+                    <div class="form-group">
+                      <label class="sr-only">Email</label>
+                      <input
+                        type="email"
+                        id="email"
+                        class="form-control"
+                        required=""
+                        id="emailNine"
+                        placeholder="Email Address"
+                      />
+                    </div>
+                    <div class="form-group">
+                      <label class="sr-only">Name</label>
+                      <textarea
+                        id="body"
+                        class="form-control"
+                        required=""
+                        rows="7"
+                        id="messageNine"
+                        placeholder="Write message"
+                      ></textarea>
+                    </div>
+                    <button
+                      type="submit"
+                      id="submit"
+                      class="btn text-center btn-primary mt-2"
+                    >
+                      Send Message
+                    </button>
+                  </form>
+                </div>
               </div>
-              <div class="mb-3">
-                <label for="email" class="form-label">Email Address</label>
-                <input type="email" class="form-control" id="email" placeholder="Enter your email" />
-              </div>
-              <div class="mb-3">
-                <label for="message" class="form-label">Your Message</label>
-                <textarea
-                  class="form-control"
-                  id="message"
-                  rows="5"
-                  placeholder="Write your message"
-                ></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary">Send Message</button>
-            </form>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
 
     <!-- Scripts -->
     <script
